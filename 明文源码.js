@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 let password = 'MacBookAir@$8917-uIArYImSVWSpEOr1taZtujy/cQVg4CZqO95+FzTKjAWwtGmX/E38G1E61IsHW+GF';
-let proxyIP = '1.1.1.3:443';
+let proxyIP = '1.1.1.1:443';
 let sub = ''; 
 let subConverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假节点信息防泄露
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
